@@ -1,0 +1,32 @@
+// colors
+$color-buttons-primary: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+$color-text-primary: #333B41;
+$color-text-additional: #FE9013;
+$color-hovered: #E47209;
+$color-link-hovered: mix(#F9804B,#FE9013);
+$color-activated: #4B9200;
+$color-mistake: #D31414;
+$color-footer: #111115;
+
+$color-black: #000000;
+$color-yellow: #FFEE2E;
+$color-orange-gradient: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+$color-pink-gradient: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+$color-gray: #767474;
+$color-gray-smoky: #ABABAB;
+$color-light-gray: #F1F3F2;
+$color-white: #FFFFFF;
+$color-frosted-glass-white: rgba(253, 253, 255, 0.52);
+
+// fonts
+$roboto: 'Roboto', Verdana, sans-serif;
+$bold: bold;
+$regular: 400;
+$light: 300;
+
+
+// widths
+$content-width: 1160px;
+$small-desktop-width: 1000px;
+$big-mobile-width: 640px;
+$mobile-width: 320px;

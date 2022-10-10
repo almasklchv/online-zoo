@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80px;
+    background: $color-black;
+}
+
+.header__navigation {
+    padding-left: 105px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.logo {
+    float: left;
+    padding: 14px 0px;
+}
+
+.header__logo {
+    float: left;
+    width: 82px;
+    height: 52px;
+    background: url('../icons/logo.svg');
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    li {
+        white-space: pre;
+        margin-right: 58px;
+        padding: 15px 0;
+    }
+    .navigation__last-child {
+        position: relative;
+        padding-left: 438px;
+        right: 55px;
+    }
+    .checked {
+        color: $color-link-hovered;
+        pointer-events: none;
+    }
+}

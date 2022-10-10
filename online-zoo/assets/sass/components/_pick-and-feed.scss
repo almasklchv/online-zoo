@@ -1,0 +1,856 @@
+.pick-and-feed {
+    display: flex;
+    min-height: 1004px;
+    background: $color-orange-gradient;
+    margin-top: 99px;
+
+    .wrapper {
+        width: 1160px;
+        //      margin-left: -50px;
+        margin-top: 60px;
+
+    }
+}
+
+.paragraph-pick-donate {
+    color: #000;
+    margin-top: 50px;
+    margin-left: -3px;
+}
+
+.button_feed-donate {
+    margin-top: 26px;
+    margin-left: 336px;
+}
+
+.paragraph_share-donate {
+    margin-top: 30px;
+
+    .pick-and-feed {
+        display: flex;
+        min-height: 1004px;
+        background: $color-orange-gradient;
+        margin-top: 99px;
+
+        .wrapper {
+            width: 1160px;
+            //      margin-left: -50px;
+            margin-top: 60px;
+
+        }
+    }
+
+    .paragraph-pick-donate {
+        color: #000;
+        margin-top: 50px;
+        margin-left: -3px;
+    }
+
+    .button_feed-donate {
+        margin-top: 26px;
+        margin-left: 336px;
+    }
+
+    .paragraph_share-donate {
+        margin-top: 30px;
+        margin-left: 332px;
+    }
+
+    .pick-and-feed::before {
+        position: absolute;
+        float: left;
+        content: '';
+        width: 270px;
+        height: 460px;
+        top: 2649px;
+        background: url('../images/pets/palm_foto.jpg');
+        z-index: -1;
+    }
+
+    .pick-and-feed_donate {
+        margin: 0;
+        min-height: 1482px;
+    }
+
+    .pick-and-feed__content {
+        position: relative;
+
+        min-height: 835px;
+        background: $color-frosted-glass-white;
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+        top: -33px;
+        padding-left: 99px;
+
+        h2 {
+            margin-left: -99px;
+            text-align: center;
+            color: $color-text-additional;
+            padding-top: 41px;
+            margin-bottom: 34px;
+        }
+
+        h4,
+        p,
+        h3 {
+            color: $color-text-primary;
+        }
+
+        h4 {
+            margin-bottom: 39px;
+        }
+
+        .paragraph_bold-normal {
+            margin-bottom: -7px;
+        }
+
+        .paragraph {
+            width: 863px;
+        }
+    }
+
+    .pick-and-feed__message {
+        padding-bottom: 190px;
+
+        .pick-and-feed__message-reopen,
+        .pick-and-feed__paragraph-donate {
+            margin: 0;
+            padding: 0;
+            color: $color-white;
+        }
+
+        .pick-and-feed__message-reopen {
+            margin-bottom: 20px;
+            position: relative;
+            top: 11px;
+        }
+    }
+
+    .pick-and-feed__main {
+        position: relative;
+        bottom: 181px;
+
+        .pick-and-feed__main-content-headline {
+            color: $color-text-additional;
+        }
+
+        .pick-and-feed__main-content {
+            min-height: 964px;
+            position: relative;
+            top: 22px;
+
+            h2 {
+                margin-left: -109px;
+            }
+
+            h4 {
+                margin: 0;
+                margin-top: -13px;
+                margin-left: -7px;
+            }
+
+            .pick-and-feed__main-content-range {
+                position: relative;
+                max-width: 976px;
+                margin-top: 12px;
+                margin-left: -6px;
+            }
+
+            .pick-and-feed__main-content-range-wrapper {
+                height: 27px;
+                width: calc(100% - 56px);
+                background: #404950;
+                border-radius: 2px;
+                padding: 0 28px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+            }
+
+            .pick-and-feed-main-content-range__radio {
+                cursor: pointer;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none
+            }
+
+            .pick-and-feed-main-content-range__radio:last-child::before {
+                content: "";
+                pointer-events: none;
+                position: absolute;
+                left: 35px;
+                top: 12px;
+                width: calc(100% - 56px);
+                border: 1px solid #72828e;
+                z-index: 1
+            }
+
+            .pick-and-feed-main-content-range__radio-descr {
+                position: absolute;
+                top: 38px;
+                font-weight: 500;
+                font-size: 26px;
+                line-height: 140%;
+                color: #333b41;
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%)
+            }
+
+            .pick-and-feed-main-content-range__radio input {
+                display: none;
+            }
+
+            .pick-and-feed-main-content-range__radio input:checked+span+.pick-and-feed-main-content-range__radio-descr {
+                color: #fe9013
+            }
+
+            .pick-and-feed-main-content-range__radio input+span {
+                display: inline-block;
+                position: relative;
+                z-index: 2
+            }
+
+            .pick-and-feed-main-content-range__radio input+span:before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: -10px;
+                border-radius: 100%;
+                width: 10px;
+                height: 10px;
+                background: #ffee2e;
+            }
+
+            .pick-and-feed-main-content-range__radio input+span:after {
+                content: url("../icons/roller_icon.svg");
+                display: block;
+                position: absolute;
+                border-radius: 100%;
+                top: -25px;
+                left: -15px;
+                opacity: 0
+            }
+
+            .pick-and-feed-main-content-range__radio input:checked+span:after {
+                opacity: 1;
+            }
+
+            .pick-and-feed__main-content-another-amount {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 auto;
+                margin-top: 98px;
+                margin-left: 345px;
+
+            }
+
+            .pick-and-feed__main-content-another-amount-input {
+                margin-bottom: 24px;
+
+                .another-amount-input {
+                    width: 257px;
+                    height: 50px;
+                    border: 1px solid #929699;
+                    padding-left: 9px;
+                    border-radius: 2px;
+                    outline: none;
+                    background: transparent;
+                }
+
+                .another-amount-input-icon {
+                    position: relative;
+                    right: 24px;
+                    top: 5px;
+                    display: inline-block;
+                }
+
+                .another-amount-input::-webkit-outer-spin-button,
+                .another-amount-input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                }
+
+                .another-amount-input:focus:valid {
+                    border: 1px solid $color-activated;
+                }
+
+                .another-amount-input:focus:valid::placeholder {
+                    color: $color-activated;
+                }
+
+                .another-amount-input:focus:invalid {
+                    border: 1px solid $color-mistake;
+                }
+
+                .another-amount-input:focus:invalid::placeholder {
+                    color: $color-mistake;
+                }
+
+
+            }
+
+            .pick-and-feed__main-content-another-amount-radio {
+                height: 27px;
+                width: 250px;
+                display: flex;
+                justify-content: space-around;
+                margin-left: 11px;
+            }
+
+            .pick-and-feed__another-amount-radio input {
+                display: none;
+            }
+
+            .pick-and-feed__another-amount-radio input:checked+span::after {
+                opacity: 1;
+            }
+
+            .pick-and-feed__another-amount-radio input+span {
+                display: inline-block;
+                position: relative;
+            }
+
+            .pick-and-feed__another-amount-radio input+span::before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: -13px;
+                left: -16px;
+                border: 1px solid #fe9013;
+                border-radius: 100%;
+                width: 13px;
+                height: 13px;
+                background: #fff;
+            }
+
+            .pick-and-feed__another-amount-radio input+span::after {
+                content: "";
+                display: block;
+                width: 15px;
+                height: 15px;
+                background: #4b9200;
+                position: absolute;
+                border-radius: 100%;
+                top: -13px;
+                left: -16px;
+                opacity: 0;
+            }
+
+            .pick-and-feed__another-amount-radio-descr {
+                display: inline;
+                padding-left: 6px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #333b41;
+            }
+        }
+    }
+
+    .layout-3-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 58px;
+        margin-left: -128px;
+
+        .pick-and-feed__main-content-days-amount {
+            width: 159px;
+            margin-right: 11px;
+            position: relative;
+            top: 37px;
+        }
+
+        .paragraph_bold {
+            font-size: 72px;
+            line-height: 80%;
+            margin: 0;
+            text-align: center;
+        }
+
+        .pick-and-feed__main-content-x-icon {
+            margin-right: 64px;
+            position: relative;
+            top: 17px;
+        }
+
+        .pick-and-feed__main-content-widget {
+            .widget {
+                float: right;
+                width: 268.49px;
+                height: 245.47px;
+                background: url('../icons/widgets/panda_widget.svg');
+            }
+        }
+    }
+
+
+
+    .how-it-works {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100px;
+        margin-top: 21px;
+
+        button {
+            margin-top: 46px;
+        }
+    }
+
+    .how-it-works__items {
+        display: flex;
+        margin-left: 26px;
+    }
+
+    .how-it-works__item {
+        width: 168px;
+    }
+
+    .how-it-works__item,
+    .how-it-works_item-arrow {
+        margin-right: 30px;
+    }
+
+    .how-it-works_item-arrow {
+        width: 69px;
+        height: 35.08px;
+        margin-top: 60px;
+
+    }
+
+    .arrow {
+        float: left;
+        width: 69px;
+        height: 37.08px;
+        background: url('../icons/pick-and-feed/arrow.svg');
+    }
+
+    .how-it-works__item-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 168px;
+        height: 168px;
+        background: $color-white;
+        border-radius: 5px;
+        border: 1px solid $color-link-hovered;
+
+    }
+
+    .how-it-works__item-text {
+        padding-top: 14px;
+
+        .paragraph {
+            width: 168px;
+        }
+    }
+
+    margin-left: 332px;
+}
+
+.pick-and-feed::before {
+    position: absolute;
+    float: left;
+    content: '';
+    width: 270px;
+    height: 460px;
+    top: 2649px;
+    background: url('../images/pets/palm_foto.jpg');
+    z-index: -1;
+}
+
+.pick-and-feed_donate {
+    margin: 0;
+    min-height: 1482px;
+}
+
+.pick-and-feed__content {
+    position: relative;
+
+    min-height: 835px;
+    background: $color-frosted-glass-white;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    top: -33px;
+    padding-left: 99px;
+
+    h2 {
+        margin-left: -99px;
+        text-align: center;
+        color: $color-text-additional;
+        padding-top: 41px;
+        margin-bottom: 34px;
+    }
+
+    h4,
+    p,
+    h3 {
+        color: $color-text-primary;
+    }
+
+    h4 {
+        margin-bottom: 39px;
+    }
+
+    .paragraph_bold-normal {
+        margin-bottom: -7px;
+    }
+
+    .paragraph {
+        width: 863px;
+    }
+}
+
+.pick-and-feed__message {
+    padding-bottom: 190px;
+
+    .pick-and-feed__message-reopen,
+    .pick-and-feed__paragraph-donate {
+        margin: 0;
+        padding: 0;
+        color: $color-white;
+    }
+
+    .pick-and-feed__message-reopen {
+        margin-bottom: 20px;
+        position: relative;
+        top: 11px;
+    }
+}
+
+.pick-and-feed__main {
+    position: relative;
+    bottom: 181px;
+
+    .pick-and-feed__main-content-headline {
+        color: $color-text-additional;
+    }
+
+    .pick-and-feed__main-content {
+        min-height: 964px;
+        position: relative;
+        top: 22px;
+
+        h2 {
+            margin-left: -109px;
+        }
+
+        h4 {
+            margin: 0;
+            margin-top: -13px;
+            margin-left: -7px;
+        }
+
+        .pick-and-feed__main-content-range {
+            position: relative;
+            max-width: 976px;
+            margin-top: 12px;
+            margin-left: -6px;
+        }
+
+        .pick-and-feed__main-content-range-wrapper {
+            height: 27px;
+            width: calc(100% - 56px);
+            background: #404950;
+            border-radius: 2px;
+            padding: 0 28px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .pick-and-feed-main-content-range__radio {
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        .pick-and-feed-main-content-range__radio:last-child::before {
+            content: "";
+            pointer-events: none;
+            position: absolute;
+            left: 35px;
+            top: 12px;
+            width: calc(100% - 56px);
+            border: 1px solid #72828e;
+            z-index: 1
+        }
+
+        .pick-and-feed-main-content-range__radio-descr {
+            position: absolute;
+            top: 38px;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 140%;
+            color: #333b41;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%)
+        }
+
+        .pick-and-feed-main-content-range__radio input {
+            display: none;
+        }
+
+        .pick-and-feed-main-content-range__radio input:checked+span+.pick-and-feed-main-content-range__radio-descr {
+            color: #fe9013
+        }
+
+        .pick-and-feed-main-content-range__radio input+span {
+            display: inline-block;
+            position: relative;
+            z-index: 2
+        }
+
+        .pick-and-feed-main-content-range__radio input+span:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            border-radius: 100%;
+            width: 10px;
+            height: 10px;
+            background: #ffee2e;
+        }
+
+        .pick-and-feed-main-content-range__radio input+span:after {
+            content: url("../icons/roller_icon.svg");
+            display: block;
+            position: absolute;
+            border-radius: 100%;
+            top: -25px;
+            left: -15px;
+            opacity: 0
+        }
+
+        .pick-and-feed-main-content-range__radio input:checked+span:after {
+            opacity: 1;
+        }
+
+        .pick-and-feed__main-content-another-amount {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 98px;
+            margin-left: 345px;
+
+        }
+
+        .pick-and-feed__main-content-another-amount-input {
+            margin-bottom: 24px;
+
+            .another-amount-input {
+                width: 257px;
+                height: 50px;
+                border: 1px solid #929699;
+                padding-left: 9px;
+                border-radius: 2px;
+                outline: none;
+                background: transparent;
+            }
+
+            .another-amount-input-icon {
+                position: relative;
+                right: 24px;
+                top: 5px;
+                display: inline-block;
+            }
+
+            .another-amount-input::-webkit-outer-spin-button,
+            .another-amount-input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+            }
+
+            .another-amount-input:focus:valid {
+                border: 1px solid $color-activated;
+            }
+
+            .another-amount-input:focus:valid::placeholder {
+                color: $color-activated;
+            }
+
+            .another-amount-input:focus:invalid {
+                border: 1px solid $color-mistake;
+            }
+
+            .another-amount-input:focus:invalid::placeholder {
+                color: $color-mistake;
+            }
+
+
+        }
+
+        .pick-and-feed__main-content-another-amount-radio {
+            height: 27px;
+            width: 250px;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 11px;
+        }
+
+        .pick-and-feed__another-amount-radio input {
+            display: none;
+        }
+
+        .pick-and-feed__another-amount-radio input:checked+span::after {
+            opacity: 1;
+        }
+
+        .pick-and-feed__another-amount-radio input+span {
+            display: inline-block;
+            position: relative;
+        }
+
+        .pick-and-feed__another-amount-radio input+span::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -13px;
+            left: -16px;
+            border: 1px solid #fe9013;
+            border-radius: 100%;
+            width: 13px;
+            height: 13px;
+            background: #fff;
+        }
+
+        .pick-and-feed__another-amount-radio input+span::after {
+            content: "";
+            display: block;
+            width: 15px;
+            height: 15px;
+            background: #4b9200;
+            position: absolute;
+            border-radius: 100%;
+            top: -13px;
+            left: -16px;
+            opacity: 0;
+        }
+
+        .pick-and-feed__another-amount-radio-descr {
+            display: inline;
+            padding-left: 6px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #333b41;
+        }
+    }
+}
+
+.layout-3-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58px;
+    margin-left: -128px;
+
+    .pick-and-feed__main-content-days-amount {
+        width: 159px;
+        margin-right: 11px;
+        position: relative;
+        top: 37px;
+    }
+
+    .paragraph_bold {
+        font-size: 72px;
+        line-height: 80%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .pick-and-feed__main-content-x-icon {
+        margin-right: 64px;
+        position: relative;
+        top: 17px;
+    }
+
+    .pick-and-feed__main-content-widget {
+        .widget {
+            float: right;
+            width: 268.49px;
+            height: 245.47px;
+            background: url('../icons/widgets/panda_widget.svg');
+        }
+    }
+}
+
+
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    margin-top: 21px;
+
+    button {
+        margin-top: 46px;
+    }
+}
+
+.how-it-works__items {
+    display: flex;
+    margin-left: 26px;
+}
+
+.how-it-works__item {
+    width: 168px;
+}
+
+.how-it-works__item,
+.how-it-works_item-arrow {
+    margin-right: 30px;
+}
+
+.how-it-works_item-arrow {
+    width: 69px;
+    height: 35.08px;
+    margin-top: 60px;
+
+}
+
+.arrow {
+    float: left;
+    width: 69px;
+    height: 37.08px;
+    background: url('../icons/pick-and-feed/arrow.svg');
+}
+
+.how-it-works__item-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 168px;
+    background: $color-white;
+    border-radius: 5px;
+    border: 1px solid $color-link-hovered;
+
+}
+
+.how-it-works__item-text {
+    padding-top: 14px;
+
+    .paragraph {
+        width: 168px;
+    }
+}

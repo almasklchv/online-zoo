@@ -1,0 +1,106 @@
+.testimonials {
+    h3 {
+        position: relative;
+        top: 106px;
+        left: 477px;
+        color: $color-text-primary;
+    }
+    .testimonials__slider {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        display: block;
+        margin: 22px auto 31px auto;
+        width: 600px;
+        border-radius: 5px;
+        border: 0.5px solid pink;
+        background: #f5f7f6;
+    }
+    .testimonials__slider::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        cursor: pointer;
+        width: 115px;
+        height: 6px;
+        border-radius: 5px;
+        background: #fe9013;
+    }
+    .testimonials__slider::-webkit-slider-thumb:active{
+        background: #e47209;
+    }
+}
+
+.testimonials::after {
+    z-index: -1;
+    float: right;
+    content: "";
+    width: 246.92px;
+    height: 276.45px;
+    background: url(../images/testimonials/leav_foto.jpg);
+    margin-top: -97px;
+}
+
+.testimonials-items {
+    display: flex;
+    margin-top: 154px;
+    margin-left: 3px;
+
+
+    .testimonials-item {
+        position: relative;
+        flex-shrink: 0;
+        width: 262px;
+        height: 389px;
+        background: $color-light-gray;
+        border-radius: 20px;
+        margin-right: 35px;
+    }
+
+    .testimonials-item__content {
+        width: 237px;
+        height: 304px;
+        padding: 0 13.5px 19px;
+        margin-top: -4px;
+        line-height: 120%;
+        overflow: hidden;
+    }
+
+    .testimonials-item:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -2px;
+        border-radius: inherit;
+        background: $color-pink-gradient;
+    }
+
+
+
+    .testimonials-item__author {
+        display: flex;
+        width: 191px;
+        height: 52px;
+        .avatar {
+            padding-top: 14px;
+            padding-left: 14px;
+        }
+        .name {          
+            padding-left: 10px;
+            margin-top: 14px;
+            white-space: nowrap;
+        }
+        .country-and-time {
+            padding: 0;
+            margin: 0;
+            white-space: pre;
+            margin-top: -17px;
+            padding-left: 10px;
+        }
+        
+    }
+
+}

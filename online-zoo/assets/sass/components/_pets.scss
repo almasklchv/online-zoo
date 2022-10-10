@@ -1,0 +1,117 @@
+.pets {
+    position: relative;
+    bottom: 43px;
+    margin-bottom: -44px;
+
+}
+
+.pets__pet-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 13px;
+
+    .pets__pet {
+        margin-top: 20px;
+        border: 1px solid $color-hovered;
+        border-radius: 5px;
+        height: 426px;
+
+        p {
+            margin: 0;
+            padding: 0;
+            padding-left: 16px;
+        }
+
+        .paragraph_bold {
+            padding-top: 4px;
+        }
+
+        .paragraph_light {
+            margin-top: -2px;
+        }
+    }
+}
+
+.pets__buttons {
+    position: relative;
+    top: 486px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    .left {
+        margin-right: 921px;
+    }
+}
+
+.pets__cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -13px;
+
+
+    .left,
+    .right {
+        flex-shrink: 0;
+    }
+
+    .left {
+        margin-right: 20px;
+        margin-left: -28px;
+        margin-top: 12px;
+    }
+
+    .right {
+        margin-right: 29px;
+        margin-top: 11px;
+    }
+}
+
+.ico {
+    float: right;
+    margin-top: -36.5px;
+    content: '';
+}
+
+.ico_banana {
+    width: 33px;
+    height: 37px;
+    margin-right: 12px;
+    background: url('../icons/banana-bamboo-icon.svg');
+}
+
+.ico_meet {
+    width: 48px;
+    height: 38px;
+    margin-right: 8px;
+    background: url('../icons/meet-fish-icon.svg');
+}
+
+.button_pets {
+    margin-left: calc(50.5% - 298px/2);
+    margin-top: 78px;
+}
+
+.pick-and-feed::before {
+    position: absolute;
+    float: left;
+    content: '';
+    width: 270px;
+    height: 460px;    
+    top: 2649px;
+    background: url('../images/pets/palm_foto.jpg');
+    z-index: -1;
+}
+
+.pets::after {
+    position: relative;
+    float: right;
+    content: '';
+    width: 369px;
+    height: 275px;
+    margin-top: -176px;
+    margin-bottom: -44px;
+    background: url('../images/pets/strelitzia.jpg');
+    z-index: -1;
+}
