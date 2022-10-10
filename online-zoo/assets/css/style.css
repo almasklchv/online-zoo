@@ -2601,6 +2601,57 @@ a {
   .logo_footer {
     display: none;
   }
+  .pick-and-feed_donate .wrapper_donate {
+    height: 1104px;
+  }
+  .pick-and-feed_donate {
+    min-height: 1145px;
+  }
+  .pick-and-feed__main-content-headline {
+    font-size: 2.4rem;
+    margin-top: 46px;
+  }
+  .pick-and-feed__main {
+    bottom: 209px;
+  }
+  .pick-and-feed__main .pick-and-feed__main-content {
+    top: -17px;
+  }
+  .pick-and-feed__main .pick-and-feed__main-content h2 {
+    font-size: 2.4rem;
+    margin-left: -400px;
+    padding-top: 20px;
+  }
+  .pick-and-feed__main .pick-and-feed__main-content h4 {
+    font-size: 1.6rem;
+    margin-top: -21px;
+    margin-left: -23px;
+  }
+  .layout-3-column {
+    margin-top: 11px;
+    margin-left: -351px;
+  }
+  .layout-3-column .pick-and-feed__main-content-days-amount {
+    margin-right: 6.2px;
+  }
+  .layout-3-column .pick-and-feed__main-content-days-amount .paragraph {
+    font-size: 0.9rem;
+    margin-left: 38px;
+    margin-top: 7px;
+  }
+  .layout-3-column .paragraph_bold {
+    font-size: 4rem;
+    margin-top: -24px;
+    margin-left: 6px;
+  }
+  .layout-3-column .pick-and-feed__main-content-x-icon {
+    margin-right: 36.09px;
+  }
+  .layout-3-column .pick-and-feed__main-content-widget .widget {
+    width: 160.15px;
+    height: 138.72px;
+    background: url("../icons/widgets/mobile/panda_widget.svg");
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

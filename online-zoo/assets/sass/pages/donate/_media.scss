@@ -103,7 +103,7 @@
 
             .paragraph_share-donate {
                 margin-left: 99px;
-            }        
+            }
 
             h2 {
                 font-size: 48px;
@@ -127,11 +127,11 @@
 
             .pick-and-feed__main-content-another-amount {
                 margin-left: 161px;
-                
+
             }
 
             .pick-and-feed__main-content-another-amount-input {
-                
+
                 .another-amount-input {
                     width: 170px;
                     height: 39px;
@@ -142,7 +142,7 @@
             .pick-and-feed__main-content-another-amount-radio {
                 margin-left: -36px;
                 margin-top: 6px;
-            
+
             }
 
             .button_feed-donate {
@@ -159,7 +159,7 @@
         }
     }
 
-    
+
     .layout-3-column {
         margin-top: 51px;
         margin-left: -127px;
@@ -182,4 +182,74 @@
     .logo_footer {
         display: none;
     }
+
+    .pick-and-feed_donate {
+        .wrapper_donate {
+            height: 1104px;
+        }
+    }
+
+    .pick-and-feed_donate {
+        min-height: 1145px;
+    }
+
+    .pick-and-feed__main-content-headline {
+        font-size: 2.4rem;
+        margin-top: 46px;
+    }
+
+    .pick-and-feed__main {
+        bottom: 209px;
+
+        .pick-and-feed__main-content {
+            top: -17px;
+
+            h2 {
+                font-size: 2.4rem;
+                margin-left: -400px;
+                padding-top: 20px;
+            }
+
+            h4 {
+                font-size: 1.6rem;
+                margin-top: -21px;
+                margin-left: -23px;
+            }
+        }
+    }
+
+    .layout-3-column {
+        margin-top: 11px;
+        margin-left: -351px;
+
+        .pick-and-feed__main-content-days-amount {
+            margin-right: 6.2px;
+
+            .paragraph {
+                font-size: 0.9rem;
+                margin-left: 38px;
+                margin-top: 7px;
+            }
+        }
+
+        .paragraph_bold {
+            font-size: 4rem;
+            margin-top: -24px;
+            margin-left: 6px;
+        }
+
+        .pick-and-feed__main-content-x-icon {
+            margin-right: 36.09px;
+        }
+
+        .pick-and-feed__main-content-widget {
+            .widget {
+                width: 160.15px;
+                height: 138.72px;
+                background: url('../icons/widgets/mobile/panda_widget.svg');
+            }
+        }
+    }
+
+
 }
