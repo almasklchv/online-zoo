@@ -471,6 +471,89 @@ a {
   pointer-events: none;
 }
 
+.header-menu {
+  position: absolute;
+  z-index: 100;
+  opacity: 0;
+  flex-direction: column;
+  background: #FFFFFF;
+  width: 100%;
+  left: 640px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  box-shadow: 0px 0px 12px black;
+}
+.header-menu .logo {
+  width: 65.6px;
+  height: 10.6px;
+  border: 0.8px solid #FE9013;
+  border-radius: 2px;
+  margin: 10px;
+  max-height: 329px;
+}
+.header-menu p {
+  padding: 0;
+  margin: -12px auto;
+  text-align: center;
+  color: #FE9013;
+  width: 57.99px;
+  font-size: 15.21px;
+}
+.header-menu li {
+  margin-bottom: 19.1px;
+  color: #333B41;
+}
+
+.menu-navigation {
+  margin-left: -29px;
+  margin-top: 84px;
+  margin-bottom: 37px;
+}
+.menu-navigation .navigation_link {
+  color: #000000;
+}
+.menu-navigation .navigation_link:hover {
+  color: #E47209;
+}
+.menu-navigation .checked {
+  color: #E47209;
+  pointer-events: none;
+}
+
+.x-icon-menu {
+  margin-top: -315px;
+  margin-right: 22px;
+  float: right;
+}
+
+.x-icon-menu__img {
+  float: right;
+  width: 14px;
+  height: 14px;
+  background: url("../icons/x-icon-pop-menu.svg");
+}
+
+.header-menu::after {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: darkblue;
+}
+
+.header-menu.showed {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  opacity: 1;
+  left: 0%;
+}
+
+.header-menu.hidden {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  opacity: 0;
+  left: 640px;
+}
+
 .footer {
   background: #111115;
   min-height: 443px;
@@ -2600,6 +2683,57 @@ a {
 @media (max-width: 639px) {
   .logo_footer {
     display: none;
+  }
+  .pick-and-feed_donate .wrapper_donate {
+    height: 1104px;
+  }
+  .pick-and-feed_donate {
+    min-height: 1145px;
+  }
+  .pick-and-feed__main-content-headline {
+    font-size: 2.4rem;
+    margin-top: 46px;
+  }
+  .pick-and-feed__main {
+    bottom: 209px;
+  }
+  .pick-and-feed__main .pick-and-feed__main-content {
+    top: -17px;
+  }
+  .pick-and-feed__main .pick-and-feed__main-content h2 {
+    font-size: 2.4rem;
+    margin-left: -400px;
+    padding-top: 20px;
+  }
+  .pick-and-feed__main .pick-and-feed__main-content h4 {
+    font-size: 1.6rem;
+    margin-top: -21px;
+    margin-left: -23px;
+  }
+  .layout-3-column {
+    margin-top: 11px;
+    margin-left: -351px;
+  }
+  .layout-3-column .pick-and-feed__main-content-days-amount {
+    margin-right: 6.2px;
+  }
+  .layout-3-column .pick-and-feed__main-content-days-amount .paragraph {
+    font-size: 0.9rem;
+    margin-left: 38px;
+    margin-top: 7px;
+  }
+  .layout-3-column .paragraph_bold {
+    font-size: 4rem;
+    margin-top: -24px;
+    margin-left: 6px;
+  }
+  .layout-3-column .pick-and-feed__main-content-x-icon {
+    margin-right: 36.09px;
+  }
+  .layout-3-column .pick-and-feed__main-content-widget .widget {
+    width: 160.15px;
+    height: 138.72px;
+    background: url("../icons/widgets/mobile/panda_widget.svg");
   }
 }
 
