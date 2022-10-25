@@ -1,10 +1,11 @@
-let burgerMenuBtn = document.querySelector('.burger-menu');
-let headerMenu = document.querySelector('.header-menu');
-let closeBurgerMenuBtn = document.querySelector('.x-icon-menu__img');
+let burgerMenuBtn = document.querySelector('.burger-menu'); // кнопка бургер меню
+let headerMenu = document.querySelector('.header-menu'); // сама менюшка
+let closeBurgerMenuBtn = document.querySelector('.x-icon-menu__img'); // кнопка закрытия бургер меню
 
 document.addEventListener('click', function(event) {
-    let target = event.target;
+    let target = event.target; 
 
+    // burger-menu
     function closeBurgerMenu() {
         headerMenu.classList.remove('showed')
         headerMenu.classList.add('hidden')
@@ -18,8 +19,7 @@ document.addEventListener('click', function(event) {
             child.style.opacity = '';
         }
     }
-    
-    if (event.target === burgerMenuBtn) { // burger menu
+    function openBurgerMenu() {
         headerMenu.style.display = ''
         setTimeout(function() {
             headerMenu.classList.remove('hidden')
@@ -32,8 +32,12 @@ document.addEventListener('click', function(event) {
             }
             child.style.opacity = 0.1;
         }
+    }
+    
+    if (event.target === burgerMenuBtn) { 
+        openBurgerMenu();
 
-    } else if (event.target === closeBurgerMenuBtn) { // burger menu
+    } else if (event.target === closeBurgerMenuBtn) {
         closeBurgerMenu();
     } else if (headerMenu.classList.contains('showed')) {
         let isHeaderMenuClicked = true;
@@ -55,11 +59,11 @@ document.addEventListener('click', function(event) {
             }
         }
 
-       
-        
         if (isHeaderMenuClicked) {
             closeBurgerMenu();
         }
+
+    // /burger-menu
     }
 
     
