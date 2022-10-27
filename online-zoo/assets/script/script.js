@@ -66,5 +66,28 @@ document.addEventListener('click', function(event) {
     // /burger-menu
     }
 
+    // carousel
+
+    let prevBtn = document.querySelector('.button.left');
+    let nextBtn = document.querySelector('.button.right');
+
+    let petCards = document.querySelector('.pets__pet-cards');
+    let petCardsCount = petCards.children.length;
+    
+    let windowWidth;
+    setInterval(function() {
+        windowWidth = document.body.clientWidth
+    }, 1)
+
+    prevBtn.addEventListener('click', function(event) {
+        
+    })
+
+    nextBtn.addEventListener('click', function(event) {
+        
+    })
+
+    // /carousel
+
     
 })
