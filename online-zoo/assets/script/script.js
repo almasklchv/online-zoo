@@ -66,28 +66,43 @@ document.addEventListener('click', function(event) {
     // /burger-menu
     }
 
-    // carousel
+})
 
-    let prevBtn = document.querySelector('.button.left');
-    let nextBtn = document.querySelector('.button.right');
+// carousel
+/*
+function hidePetFrom(n) {
+    for (let i = n; i < petCardsCount; i++) {
+        petCards.children[i].classList.add('hidden')
+    }
+}
+*/
 
-    let petCards = document.querySelector('.pets__pet-cards');
-    let petCardsCount = petCards.children.length;
-    
-    let windowWidth;
-    setInterval(function() {
-        windowWidth = document.body.clientWidth
-    }, 1)
+let prevBtn = document.querySelector('.button.left');
+let nextBtn = document.querySelector('.button.right');
 
-    prevBtn.addEventListener('click', function(event) {
-        
-    })
+let petCards = document.querySelector('.pets__pet-cards');
+let petCardsCount = petCards.children.length;
 
-    nextBtn.addEventListener('click', function(event) {
-        
-    })
+let windowWidth;
+setInterval(function() {
+    windowWidth = document.body.clientWidth;
+/*
+    if (windowWidth >= 1000) {
+        hidePetFrom(6);
+        petCards.children[4].classList.remove('hidden');
+        petCards.children[5].classList.remove('hidden');
+    } else if (windowWidth >= 320) {
+        hidePetFrom(4);
+    }
+    */
+}, 1)
 
-    // /carousel
-
+prevBtn.addEventListener('click', function(event) {
     
 })
+
+nextBtn.addEventListener('click', function(event) {
+    
+})
+
+// /carousel
